@@ -205,3 +205,30 @@ footer {
 .resume-block {
     padding: 15px;
 }
+
+
+@media screen and (max-width: 450px) {
+    .header {
+        position: static;
+    }
+
+    .section-content {
+        margin: -10px;
+    }
+
+    .section-title {
+        margin: 10px auto 10px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header nav {
+        font-size: 85%;
+        padding-bottom: 10px;
+    }
+
+    footer {
+        font-size:smaller;
+    }
+
+}
