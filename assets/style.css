@@ -18,6 +18,21 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.hero-image {
+    background-image: url("./images/ocean-hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    margin: -10px;
+}
+
+.hero-image img {
+    height: 260px;
+    width: 204px;
+    border: 5px solid var(--color4);
+    border-radius: 10%;
+    margin: 50px;
+}
+
 .header {
     margin: -10px;
     background-color: var(--color4);
@@ -45,6 +60,10 @@ body{
     margin: 0px 7px;
     text-decoration: none;
     color: var(--color5);
+}
+
+.header nav a:hover {
+    color: var(--color2);
 }
 
 .section-title {
